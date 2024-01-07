@@ -4,10 +4,10 @@
 ---
 ** Table of Content:
 1. [Home.](home)
-    1. [About TLS.](#about-tls)
-    1. [Our Menu.](#our-menu)
-1. [Store Hours.](#store-hours)
-1. [Contact Us.](#contact-us)
+    1. [About TLS.](taco#about-tls)
+    1. [Our Menu.](taco#our-menu)
+1. [Store Hours.](taco#store-hours)
+1. [Contact Us.](taco#contact-us)
 ##  HOME
 > The home page is a simple html file consising of a welcome message, some navigation menu, internal id link to the about TLS and Our Menu link, Taco trivia and an image of Tacos with its caption
 ### ABOUT TLS
