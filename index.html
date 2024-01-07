@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Odili Chinedum Christian">
-    <meta name="description" content="The official website for the Little Taco Shop">
+    <meta name="description" content="Strictly HTML project for the official website for the Little Taco Shop to test my html skills">
     <link rel="icon" href="image/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css"> <!-- There is no style sheet for this project because its just an html project to test my html skill without styling -->
+    <link rel="stylesheet" href="style.css"> <!-- There are no style sheet for this project because its a strict html project to test my html skill without CSS -->
     <title>Home</title>
 </head>
 <body>
     <header>
         <h1>Welcome to The Little Taco Shop</h1>
         <nav>
+            <figure>
+                <img src="image/favicon.ico" alt="TACO" title="We love tacos!" width="50"
+                    height="50" loading="lazy">
+            </figure>
             <ul>
-                <!-- <li><a href="index.html">Home</a></li> -->
-                <!-- <li><a href="about.html">About <abbr title="The Little Taco Shop">LTS</abbr></a></li> -->
                 <li><a href="#about">About <abbr title="The Little Taco Shop">LTS</abbr></a></li>
                 <li><a href="#menu">Our Menu</a></li>
                 <li><a href="hours.html">Store Hours</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
             <figure>
-                <img src="image/tacos_400x267.png" alt="Taco and a Drink" title="We love tacos!" width="400"
-                    height="267">
+                <img src="image/tacos_400x267.png" alt="Taco and a Drink" title="We love tacos!" width="100%"
+                    height="267" loading="lazy" loading="lazy">
                 <figcaption>
                     Tacos and a Drink
                 </figcaption>
@@ -32,13 +34,10 @@
     </header>
     <hr>
     <main>
-        <!-- Our content -->
         <article id="about">
             <h2>About <abbr title="The Little Taco Shop">LTS</abbr></h2>
             <p>
-                <abbr title="The Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time>. Our shop
-                was built from a <strong>love of tacos</strong>🌮🌮🌮🌮. We hope our shop adds a unique and interesting palce to
-                our little town
+                <abbr title="The Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time>. Our shop was built from a <strong>love of tacos </strong>🌮🌮🌮🌮. We hope our shop adds a unique and interesting palce to our little town
             </p>
             <aside>
                 <h3>
@@ -83,19 +82,19 @@
         </article>
         <hr>
         <article id="menu">
-            <h2>Our Menu</h2>
+            <h2> Our Menu </h2>
             <table>
-                <caption>Our Tacos</caption>
+                <caption> Our Tacos </caption>
                 <thead>
                     <tr>
                         <th>Tacos</th>
-                        <th scope="col"><abbr title="Quantity">Qty</abbr></th>
-                        <th scope="col">Price</th>
+                        <th scope="col"><abbr title="Quantity"> Qty </abbr></th>
+                        <th scope="col"> Price </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row" rowspan="3">Crunchy</th>
+                        <th scope="row" rowspan="3"> Crunchy </th>
                         <td>1</td>
                         <td>$1.50</td>
                     </tr>
@@ -131,13 +130,12 @@
             </table>
             <br>
             <p>
-                <a href="#">Back to top</a>
+                <a href="#"> Back to top </a>
             </p>
         </article>
     </main>
     <hr>
     <footer>
-        <!-- Footer content  -->
         <p>
             Copyright &copy; The Little Teco Shop
         </p>
