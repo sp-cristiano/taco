@@ -14,12 +14,15 @@
 > The Aboult TLS is an internal link in the Home page which is linked by an id. This will allow the home page and the about TLS section to share same page.
 ### OUR MENU
 > The Our Menu is an internal link in the Home page which is linked by an id. This will allow the home page and the Our Menu section to share same page.
+
 ![Image of Home Page](image/home.png)
 ---
 ## STORE HOURS
 > The Store Hours page, just like other pages in this project is an HTML page which shows the hours of operation of the store.
+
 ![Image of Hours](image/hours.png)
 ---
 ## CONTACT US
 > The Contact Us page, just like other pages in this project is an HTML page which is equiped with a form and phone number for customers to contact to the store.
+
 ![Image of Contact Us](image/contact.png)
